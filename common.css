@@ -1,0 +1,134 @@
+.title {
+    font-size: 2em;
+    color: #505050;
+    font-family: 'Playfair Display', serif;
+    background-color: #DCE9E7;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 760px;
+}
+
+.tabs>.tab {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    transition: font-size 0.5s;
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: #3cb371;
+}
+
+.tab-active {
+    border-bottom: 2px inset #DCE9E7;
+    font-weight: 700 !important;
+    font-size: 1.2em !important;
+}
+
+.content {
+    margin: 0 30px;
+    font-size: 20;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 2em;
+    transition: display 0.5s;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    height: auto;
+    width: 700px;
+}
+
+a:link {
+    font-weight: 700;
+    color: #3cb371;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    font-weight: 700;
+    color: #778899;
+    text-decoration: none;
+}
+
+.banner {
+    border-bottom: 8px inset #f7f7f7;
+    width: 760px;
+    height: 175;
+    margin: 30
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 760px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    padding: 0;
+    bottom: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DCE9E7;
+    background-size: cover;
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    clear: both;
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+.border {
+    font-weight: bolder;
+}
+
+.headicon {
+    display: block;
+    float: right;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+}
+
+.content-panel {
+    width: 760px;
+    height: max-content;
+    overflow: hidden;
+}
+
+.horizon-line {
+    height: 8px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.footer {
+    text-align: center;
+}
+
+.contact-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    background-color: transparent;
+}
